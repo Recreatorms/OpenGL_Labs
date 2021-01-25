@@ -41,7 +41,7 @@ void Draw() {
 	GLUquadricObj *quadObj;
 	quadObj = gluNewQuadric();
 	glColor3d(1, 1, 0);
-	gluQuadricDrawStyle(quadObj, GLU_LINE);
+	gluQuadricDrawStyle(quadObj, GLU_FILL);
 	gluSphere(quadObj, 2, 20, 20);
 
 	glLoadIdentity();
